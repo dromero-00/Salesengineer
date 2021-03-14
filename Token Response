@@ -1,0 +1,24 @@
+{
+    "token": "7cddab7f-5143-4536-a23f-e696a5acbc49",
+    "created": "1615733730436",
+    "pass_luhn_validation": true,
+    "token_type": "credit_card",
+    "type": "tokenized",
+    "state": "created",
+    "bin_number": "411111",
+    "vendor": "VISA",
+    "card_type": "CREDIT",
+    "issuer": "JPMORGAN CHASE BANK, N.A.",
+    "level": "",
+    "country_code": "USA",
+    "billing_address": {
+        "line1": "fake st 321",
+        "city": "BOG",
+        "state": "CUN",
+        "country": "COL"
+    },
+    "holder_name": "Daniel Romero",
+    "expiration_date": "10/2029",
+    "last_4_digits": "1111",
+    "encrypted_cvv": "NjJhODU5ODUtODM0MS00ZGI2LThjMjUtMDRiOGE4N2JiMWUyY3Z2X2RlbGltaXRlcnZhdWx0OnY0OmFTU205V29lTlJLSW5NMlJvUHBNQVI5anliVFlxYkZVendlMWRiY3NEV0xwUWR4aU55M0taTXB2WHk5Nms3aUt4YTUvc0lFM09TdVd0MG1IY3ZUbmQ5azYxMmZ4UU9RMmw2dDFjODk5"
+}
