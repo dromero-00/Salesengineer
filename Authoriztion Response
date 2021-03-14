@@ -1,0 +1,53 @@
+{
+    "id": "8aa63766-a4e4-4633-8e4d-e0555c4ebf5c",
+    "created": "1615737842288",
+    "reconciliation_id": "23434534534",
+    "provider_specific_data": {},
+    "payment_method": {
+        "type": "tokenized",
+        "token": "7cddab7f-5143-4536-a23f-e696a5acbc49",
+        "token_type": "credit_card",
+        "holder_name": "Daniel Romero",
+        "expiration_date": "10/2029",
+        "last_4_digits": "1111",
+        "pass_luhn_validation": true,
+        "fingerprint": "d932af36-0b8c-49d9-83c6-33edd3363481",
+        "bin_number": "411111",
+        "vendor": "VISA",
+        "issuer": "JPMORGAN CHASE BANK, N.A.",
+        "card_type": "CREDIT",
+        "level": "",
+        "country_code": "USA",
+        "created": "1615733730436",
+        "billing_address": {
+            "country": "COL",
+            "state": "CUN",
+            "city": "BOG",
+            "line1": "fake st 321"
+        }
+    },
+    "result": {
+        "status": "Succeed"
+    },
+    "provider_data": {
+        "provider_name": "MockProcessor",
+        "response_code": "0",
+        "description": "Authorized.",
+        "raw_response": "{\"OID\":\"9b1fa7a6-56ba-4b17-b002-063343fd07e1\",\"AUTH_CODE\":\"9b1fa\",\"RETURN_MESSAGE\":\"Authorized.\",\"TRANSID\":\"8c4e34b0-a3b7-43c8-a605-23e74e1ec0e6_2a37c1e2-11ec-4767-b46c-a2e8e47ae237_Authorization\",\"STATUS\":\"SUCCESS\",\"AMOUNT\":\"40.97\",\"DATE\":\"1615737842288\",\"RETURN_CODE\":\"0\",\"CURRENCY\":\"USD\"}",
+        "authorization_code": "9b1fa",
+        "transaction_id": "8c4e34b0-a3b7-43c8-a605-23e74e1ec0e6_2a37c1e2-11ec-4767-b46c-a2e8e47ae237_Authorization",
+        "external_id": "9b1fa7a6-56ba-4b17-b002-063343fd07e1"
+    },
+    "amount": 4097,
+    "provider_configuration": {
+        "id": "8483f4bb-cdc6-4e34-b01f-97071baa64df",
+        "name": "Test",
+        "description": "This is a test for the sales engineer position",
+        "created": "1615509599639",
+        "modified": "1615509599639",
+        "account_id": "2a37c1e2-11ec-4767-b46c-a2e8e47ae237",
+        "provider_id": "c87ee096-e1a4-4502-9194-9e9b6e867bf0",
+        "type": "cc_processor",
+        "href": "https://api.paymentsos.com/accounts/2a37c1e2-11ec-4767-b46c-a2e8e47ae237/provider-configurations/8483f4bb-cdc6-4e34-b01f-97071baa64df"
+    }
+}
