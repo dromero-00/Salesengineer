@@ -1,0 +1,28 @@
+{
+    "id": "1384fead-57d8-4218-87d7-36317e6676a8",
+    "created": "1615737893045",
+    "result": {
+        "status": "Succeed"
+    },
+    "amount": 4097,
+    "provider_data": {
+        "provider_name": "MockProcessor",
+        "response_code": "0",
+        "description": "Captured.",
+        "raw_response": "{\"OID\":\"9b1fa7a6-56ba-4b17-b002-063343fd07e1\",\"AUTH_CODE\":\"9b1fa\",\"RETURN_MESSAGE\":\"Captured.\",\"TRANSID\":\"4d73d72c-2153-49a2-b8fc-e14d5b1f6c2c_2a37c1e2-11ec-4767-b46c-a2e8e47ae237_Capture\",\"STATUS\":\"SUCCESS\",\"AMOUNT\":\"40.97\",\"DATE\":\"1615737893045\",\"RETURN_CODE\":\"0\",\"CURRENCY\":\"USD\"}",
+        "authorization_code": "9b1fa",
+        "transaction_id": "4d73d72c-2153-49a2-b8fc-e14d5b1f6c2c_2a37c1e2-11ec-4767-b46c-a2e8e47ae237_Capture",
+        "external_id": "9b1fa7a6-56ba-4b17-b002-063343fd07e1"
+    },
+    "provider_configuration": {
+        "id": "8483f4bb-cdc6-4e34-b01f-97071baa64df",
+        "name": "Test",
+        "description": "This is a test for the sales engineer position",
+        "created": "1615509599639",
+        "modified": "1615509599639",
+        "account_id": "2a37c1e2-11ec-4767-b46c-a2e8e47ae237",
+        "provider_id": "c87ee096-e1a4-4502-9194-9e9b6e867bf0",
+        "type": "cc_processor",
+        "href": "https://api.paymentsos.com/accounts/2a37c1e2-11ec-4767-b46c-a2e8e47ae237/provider-configurations/8483f4bb-cdc6-4e34-b01f-97071baa64df"
+    }
+}
