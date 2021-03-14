@@ -6,7 +6,7 @@ However, tanks to the documentation there was a clear path to take and after a w
 
 Thanks for the opportunity I hope to hear from you soon and continue with the process. 
  
- #Definitions
+# Definitions
  
 Tokenization: It’s a way to protect the sensible data in a card. Once you provide the information it is transform in a code (token). If anyone would intercept the code will not be able to understand the card data. 
 
