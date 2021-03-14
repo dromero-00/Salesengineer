@@ -1,0 +1,21 @@
+var myHeaders = new Headers();
+myHeaders.append("x-payments-os-env", "test");
+myHeaders.append("public_key", "bade8359-de01-4737-a526-ca7bbca7541c");
+myHeaders.append("idempotency_key", "981");
+myHeaders.append("api-version", "1.3.0");
+myHeaders.append("Content-Type", "application/json");
+myHeaders.append("app_id", "com.sorrynotarealweb.alsopartofthetest");
+
+var raw = JSON.stringify({"token_type":"credit_card","credit_card_cvv":"123","card_number":"4111111111111111","expiration_date":"10/29","holder_name":"Daniel Romero","billing_address":{"country":"COL","state":"CUN","city":"BOG","line1":"fake st 321"}});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("https://api.paymentsos.com//tokens", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
